@@ -1,0 +1,638 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "正在从 \"LOG_LEVEL_ARRAY\" 读取无效数据。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/25768/Desktop/EssayDetector/3122004856/deps/limonp/Logging.hpp"
+                },
+                "region": {
+                  "startLine": 65,
+                  "startColumn": 7
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "limonp::Logger::{ctor}",
+                  "decoratedName": "??0Logger@limonp@@QEAA@_KPEBDH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/25768/Desktop/EssayDetector/3122004856/deps/limonp/Logging.hpp"
+                          },
+                          "region": {
+                            "startLine": 36,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/25768/Desktop/EssayDetector/3122004856/deps/limonp/Logging.hpp"
+                          },
+                          "region": {
+                            "startLine": 36,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/25768/Desktop/EssayDetector/3122004856/deps/limonp/Logging.hpp"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 5
+                          }
+                        },
+                        "message": {
+                          "text": "进入此循环(假定“<分支条件>”)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/25768/Desktop/EssayDetector/3122004856/deps/limonp/Logging.hpp"
+                          },
+                          "region": {
+                            "startLine": 44,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/25768/Desktop/EssayDetector/3122004856/deps/limonp/Logging.hpp"
+                          },
+                          "region": {
+                            "startLine": 46,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/25768/Desktop/EssayDetector/3122004856/deps/limonp/Logging.hpp"
+                          },
+                          "region": {
+                            "startLine": 47,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/25768/Desktop/EssayDetector/3122004856/deps/limonp/Logging.hpp"
+                          },
+                          "region": {
+                            "startLine": 49,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/25768/Desktop/EssayDetector/3122004856/deps/limonp/Logging.hpp"
+                          },
+                          "region": {
+                            "startLine": 52,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/25768/Desktop/EssayDetector/3122004856/deps/limonp/Logging.hpp"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 5
+                          }
+                        },
+                        "message": {
+                          "text": "进入此循环(假定“!!((e==0))”)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/25768/Desktop/EssayDetector/3122004856/deps/limonp/Logging.hpp"
+                          },
+                          "region": {
+                            "startLine": 59,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/25768/Desktop/EssayDetector/3122004856/deps/limonp/Logging.hpp"
+                          },
+                          "region": {
+                            "startLine": 65,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "“LOG_LEVEL_ARRAY”是“std::<<”中的输出(在 c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.33.31629\\include\\ostream:761 处声明)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/25768/Desktop/EssayDetector/3122004856/deps/limonp/Logging.hpp"
+                          },
+                          "region": {
+                            "startLine": 65,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "从“LOG_LEVEL_ARRAY[5]”中读取无效(可读范围是 0 到 4)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6282",
+          "message": {
+            "text": "运算符不正确。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/25768/Desktop/EssayDetector/3122004856/deps/limonp/StringUtil.hpp"
+                },
+                "region": {
+                  "startLine": 359,
+                  "startColumn": 3,
+                  "endLine": 359,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "limonp::GetTime",
+                  "decoratedName": "?GetTime@limonp@@YAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAV23@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 cppjieba::Word::unicode_length。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/25768/Desktop/EssayDetector/3122004856/EssayDetector/cppjieba/Unicode.hpp"
+                },
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 3,
+                  "endLine": 23,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cppjieba::Word::{ctor}",
+                  "decoratedName": "??0Word@cppjieba@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@I@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "cppjieba::Word::unicode_length"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 cppjieba::Word::unicode_offset。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/25768/Desktop/EssayDetector/3122004856/EssayDetector/cppjieba/Unicode.hpp"
+                },
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 3,
+                  "endLine": 23,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cppjieba::Word::{ctor}",
+                  "decoratedName": "??0Word@cppjieba@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@I@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "cppjieba::Word::unicode_offset"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 cppjieba::DictUnit::weight。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/25768/Desktop/EssayDetector/3122004856/EssayDetector/cppjieba/Trie.hpp"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 1,
+                  "endLine": 19,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cppjieba::DictUnit::{ctor}",
+                  "decoratedName": "??0DictUnit@cppjieba@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "cppjieba::DictUnit::weight"
+          }
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/25768/Desktop/EssayDetector/3122004856/EssayDetector/EssayDetector/EssayAnalysist.h"
+                },
+                "region": {
+                  "startLine": 104,
+                  "startColumn": 60,
+                  "endLine": 104,
+                  "endColumn": 76
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EssayAnalysist::CalculateIDF",
+                  "decoratedName": "?CalculateIDF@EssayAnalysist@@SA?AV?$vector@NV?$allocator@N@std@@@std@@AEBV?$vector@V?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@V?$allocator@V?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@@2@@3@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 cppjieba::KeywordExtractor::Word::weight。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/25768/Desktop/EssayDetector/3122004856/EssayDetector/cppjieba/KeywordExtractor.hpp"
+                },
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 3,
+                  "endLine": 20,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cppjieba::KeywordExtractor::Word::{ctor}",
+                  "decoratedName": "??0Word@KeywordExtractor@cppjieba@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "cppjieba::KeywordExtractor::Word::weight"
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.33.31630.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/25768/Desktop/EssayDetector/3122004856/deps/limonp/Logging.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "83878790b340c2e2906709c4d651c7af791701caddb1049c2b6ed6885e1b804b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/25768/Desktop/EssayDetector/3122004856/deps/limonp/StringUtil.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "82b81a62992ac0451da323eac871af5ff6e7793828dc908939a422359c4c97f1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/25768/Desktop/EssayDetector/3122004856/EssayDetector/cppjieba/Unicode.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "903dd9eff4cd42fd605c604a66e63b6a05f03b699955b25ac7968c7137a9d754"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/25768/Desktop/EssayDetector/3122004856/EssayDetector/cppjieba/Trie.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "a9f10ee301d29a07ef1d6c33b9146880d86459999360dd2616a3697d5ab6a95c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/25768/Desktop/EssayDetector/3122004856/EssayDetector/EssayDetector/EssayAnalysist.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "75e04f4e7e17bbe6cb85f419423c12a04d9c417e949e71294966bdb8c0dce2a2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/25768/Desktop/EssayDetector/3122004856/EssayDetector/cppjieba/KeywordExtractor.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "0446b213cd02b2c544da9508e37e4f2fe58c781e6f08621cf30fb9cadca2a879"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/25768/desktop/essaydetector/3122004856/essaydetector/essaydetector/main.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "a2f7c1815e8a1189ec1ed98801cdd52e5e481d5b1542bd5387a572c692c21a24"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/25768/desktop/essaydetector/3122004856/essaydetector/essaydetector/filemanager.h"
+          },
+          "hashes": {
+            "sha-256": "f1f18ec0d6b0fddb5bfeb6591472126c78bcc9fe1e2f8d2e70bfd3e8896b78cb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/25768/desktop/essaydetector/3122004856/essaydetector/cppjieba/jieba.hpp"
+          },
+          "hashes": {
+            "sha-256": "46835d6779e9697853faebc12ec5e8714a478c434e42bc512c6eabed76a65ac4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/25768/desktop/essaydetector/3122004856/essaydetector/cppjieba/querysegment.hpp"
+          },
+          "hashes": {
+            "sha-256": "60812fb607f42ce0afe872fada2b5ae77b5dccbd872caf46ebb8554ef9cfa0c7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/25768/desktop/essaydetector/3122004856/essaydetector/cppjieba/dicttrie.hpp"
+          },
+          "hashes": {
+            "sha-256": "0b86c98976be072eb7da9c9bf3be1f8543d5736a44233d18fa77d66395605d0f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/25768/desktop/essaydetector/3122004856/deps/limonp/stdextension.hpp"
+          },
+          "hashes": {
+            "sha-256": "5f5bf96e036f5f678940996976ec40a22030b274fb0d9fd561596eba5ba0e8b2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/25768/desktop/essaydetector/3122004856/deps/limonp/localvector.hpp"
+          },
+          "hashes": {
+            "sha-256": "1227bdeee48489affeb57ac130ec7f10467d54beac46d3505fead662d1cb51cb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/25768/desktop/essaydetector/3122004856/essaydetector/cppjieba/segmentbase.hpp"
+          },
+          "hashes": {
+            "sha-256": "53932e2e251dc46d10f409d4426c45625313ae7e8a0513c0c8de4cfb7a9d7030"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/25768/desktop/essaydetector/3122004856/essaydetector/cppjieba/prefilter.hpp"
+          },
+          "hashes": {
+            "sha-256": "c7af57afbbb2dc5e04f537fba18d7b5959f3c88a62eba6748c73124a822afd2b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/25768/desktop/essaydetector/3122004856/essaydetector/cppjieba/fullsegment.hpp"
+          },
+          "hashes": {
+            "sha-256": "34ad5e9b3fbaa8278d9aba6d6502140cfab791cc810dda5d395fc86953aea10f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/25768/desktop/essaydetector/3122004856/essaydetector/cppjieba/mixsegment.hpp"
+          },
+          "hashes": {
+            "sha-256": "8d9d55b16acb16bf9ae09210f7ba54066b0d2db92d9ae4b3e192ed4ecdadb174"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/25768/desktop/essaydetector/3122004856/essaydetector/cppjieba/mpsegment.hpp"
+          },
+          "hashes": {
+            "sha-256": "608adde6d93d7abd2a7dfb2ea56756b969ee47a817a91553f371051bb105c640"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/25768/desktop/essaydetector/3122004856/essaydetector/cppjieba/segmenttagged.hpp"
+          },
+          "hashes": {
+            "sha-256": "fd6616377dc5c20b5fa872050e3dc385863824dbc78c7d4d90a9aab820e2c488"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/25768/desktop/essaydetector/3122004856/essaydetector/cppjieba/postagger.hpp"
+          },
+          "hashes": {
+            "sha-256": "9a236cbfaedd3b4654aded128bc0d64aae284e1ccfa86b8f19ce1dffc38b3004"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/25768/desktop/essaydetector/3122004856/essaydetector/cppjieba/hmmsegment.hpp"
+          },
+          "hashes": {
+            "sha-256": "fd7d5a72a8d95a176fd984bcc8e720a96ee69b32122d3bd765412610deb04f5d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/25768/desktop/essaydetector/3122004856/essaydetector/cppjieba/hmmmodel.hpp"
+          },
+          "hashes": {
+            "sha-256": "372139f6829baaee14a867a2df986af7b92713604f9c61f55de4aab77637d64e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/25768/desktop/essaydetector/3122004856/essaydetector/essaydetector/tester.h"
+          },
+          "hashes": {
+            "sha-256": "c257094884ac7beedf0270e289839155e85a23ce8fd4cfd202ddc1d764400912"
+          }
+        }
+      ]
+    }
+  ]
+}

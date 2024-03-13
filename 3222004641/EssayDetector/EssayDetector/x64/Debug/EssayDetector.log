@@ -1,0 +1,12 @@
+﻿  main.cpp
+C:\Users\25768\Desktop\EssayDetector\3122004856\EssayDetector\EssayDetector\FileManager.h(43,2): warning C4091: “static ”: 没有声明变量时忽略“FileManager”的左侧
+C:\Users\25768\Desktop\EssayDetector\3122004856\EssayDetector\cppjieba\HMMSegment.hpp(162,1): warning C4267: “=”: 从“size_t”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\25768\Desktop\EssayDetector\3122004856\EssayDetector\cppjieba\HMMSegment.hpp(178,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\25768\Desktop\EssayDetector\3122004856\EssayDetector\EssayDetector\EssayAnalysist.h(144,2): warning C4091: “static ”: 没有声明变量时忽略“EssayAnalysist”的左侧
+C:\Users\25768\Desktop\EssayDetector\3122004856\EssayDetector\EssayDetector\EssayAnalysist.h(83,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\25768\Desktop\EssayDetector\3122004856\EssayDetector\EssayDetector\Tester.h(59,2): warning C4091: “static ”: 没有声明变量时忽略“Tester”的左侧
+  EssayDetector.vcxproj -> C:\Users\25768\Desktop\EssayDetector\3122004856\EssayDetector\x64\Debug\EssayDetector.exe
